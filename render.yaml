@@ -1,0 +1,8 @@
+# Render.com one-click deploy config
+services:
+  - type: web
+    name: tubefetch
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars: []
